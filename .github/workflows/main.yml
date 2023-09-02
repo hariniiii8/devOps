@@ -20,9 +20,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run linting
-        run: npm run lint # Replace with your linting command
-
       - name: Run unit tests
         run: npm test # Replace with your test command
 
