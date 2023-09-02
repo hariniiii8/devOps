@@ -4,11 +4,11 @@
   "description": "A description of your project",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js", // Start your application with this script
-    "test": "jest", // Run tests with this script
-    "lint": "eslint .", // Run linting with this script
-    "build": "npm run lint && npm run test && npm run build-docker", // Build your application and Docker image
-    "build-docker": "docker build -t your-docker-image-name:latest .", // Build Docker image
+    "start": "node index.js", 
+    "test": "jest", 
+    "lint": "eslint .", 
+    "build": "npm run lint && npm run test && npm run build-docker", 
+    "build-docker": "docker build -t your-docker-image-name:latest .", 
     "deploy": "your-deployment-script.sh" // Deploy your application (replace with your actual deployment script)
   },
   "keywords": [],
